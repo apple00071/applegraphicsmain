@@ -34,7 +34,7 @@ export default function ContactForm() {
                     type="tel"
                     id="phone"
                     name="phone"
-                    placeholder="+91 98765 43210"
+                    placeholder="+91 82474 94622"
                     className="w-full px-4 py-3 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all"
                     required
                 />

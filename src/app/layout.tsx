@@ -74,7 +74,7 @@ const localBusinessSchema = {
   name: BUSINESS_NAME,
   description: BUSINESS_DESCRIPTION,
   url: "https://applegraphics.in",
-  telephone: "+919876543210",
+  telephone: "+918247494622",
   email: "contact@applegraphics.in",
   address: {
     "@type": "PostalAddress",

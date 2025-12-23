@@ -4,8 +4,8 @@ export const BUSINESS_TAGLINE = "Professional Printing & Graphic Design in Chira
 export const BUSINESS_DESCRIPTION = "Your trusted partner for flex printing, vinyl printing, banners, visiting cards, signage, and custom graphic design in Chirala, Andhra Pradesh.";
 
 // Contact Information
-export const PHONE_NUMBER = "+91 9876543210"; // Replace with actual number
-export const PHONE_NUMBER_RAW = "919876543210"; // For WhatsApp links
+export const PHONE_NUMBER = "+91 8247494622";
+export const PHONE_NUMBER_RAW = "918247494622"; // For WhatsApp links
 export const EMAIL = "contact@applegraphics.in";
 export const ADDRESS = {
   street: "Main Road, Near Bus Stand",

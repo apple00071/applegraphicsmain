@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@theme {
+    --font-family-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --color-primary: #f97316;
+}
+
+/* Base Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family-sans);
+    background-color: #ffffff;
+    color: #111827;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Reference Style Buttons */
+.btn-orange {
+    @apply bg-[#f97316] text-[#000000] font-bold py-3 px-8 rounded-lg hover:bg-[#ea580c] transition-all text-center flex items-center justify-center border-none;
+}
+
+.btn-white {
+    @apply bg-white text-[#000000] border border-gray-200 font-bold py-3 px-8 rounded-lg hover:bg-gray-50 transition-all text-center flex items-center justify-center;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+/* Selection */
+::selection {
+    background-color: #fed7aa;
+    color: #111827;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f97316;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ea580c;
+}
